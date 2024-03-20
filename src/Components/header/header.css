@@ -307,6 +307,9 @@ header .navbar ul li a {
     }
 }
 @media (max-width:391px) {
+    .animation-abc{
+        font-size: 25px;
+    }
     .dis{
         display: none;
     }
