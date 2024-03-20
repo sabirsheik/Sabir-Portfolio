@@ -310,6 +310,10 @@ header .navbar ul li a {
     .typing-animation h1{
         font-size: 25px;
     }
+    .typing-animation span{
+        font-size: 35px;
+        padding-left: 0;
+    }
     .dis{
         display: none;
     }
