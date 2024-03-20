@@ -302,6 +302,7 @@ header .navbar ul li a {
         font-size: 30px;
     }
     .typing-animation span{
+        height: 200px;
         font-size: 50px;
         padding-left: 0;
     }
@@ -311,7 +312,7 @@ header .navbar ul li a {
         font-size: 25px;
     }
     .typing-animation span{
-        font-size: 35px;
+        font-size: 40px;
         padding-left: 0;
     }
     .dis{
