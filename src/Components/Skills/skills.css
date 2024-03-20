@@ -201,12 +201,13 @@
     .skill-left h1{
         font-size: 25px;
     }
+    .skill-left .sec{
+        display: none;
+    }
 }
 @media (max-width:338.98px) {
     .skill-right h1{
         font-size: 25px;
     }
-    .skill-left .sec{
-        display: none;
-    }
+   
 }
