@@ -307,6 +307,9 @@ header .navbar ul li a {
     }
 }
 @media (max-width:391px) {
+    .dis{
+        display: none;
+    }
     .btns-c{
         /* width: 100%; */
         justify-content: center;
