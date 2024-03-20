@@ -82,7 +82,7 @@ export default function Header() {
             <ul>
               <li><a href="" className="underline-effect">Home</a></li>
               <li><a href="main.jsx" className="underline-effect">About Us</a></li>
-              <li><span className="underline-effect"><span>Services</span> <i className="fa-solid fa-chevron-down"></i></span>
+              <li><span><span className="underline-effect">Services</span> <i className="fa-solid fa-chevron-down"></i></span>
                 <ul>
                   <li><a href="">Blogs</a></li>
                   <li><a href="" className='skills'><span>Skills</span> <i className="fa-solid fa-chevron-down"></i></a>
