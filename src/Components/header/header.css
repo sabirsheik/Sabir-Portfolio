@@ -1,0 +1,347 @@
+.container-header-main {
+    background-image: linear-gradient(rgba(26, 22, 22, 0.603),
+            rgba(56, 52, 52, 0.7)), url(../public/background.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container-header-main svg {
+    position: absolute;
+    bottom: 0;
+}
+
+.D-f {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.d-f-a {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    color: var(--color-white);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 15px 12%;
+    z-index: 10000;
+}
+
+.scrolled {
+    transition: 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(30, 24, 24, 0.744);
+    background: #171717a9;
+}
+
+header .header-logo-txt {
+    gap: 10px;
+}
+
+header .header-logo-txt img {
+    width: 50px;
+}
+
+.header-logo-txt h2 a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.header-logo-txt h2 span {
+    padding: 2px 3px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--dark-brown);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+#btn {
+    width: 130px;
+    height: 38px;
+    background: var(--dark-brown);
+    color: var(--white-color);
+    border: none;
+    outline: none;
+    margin-top: 7px;
+    font-size: 17px;
+    margin-left: 10px;
+    border-radius: 7px;
+    transition: background 0.5s ease-in;
+    cursor: pointer;
+}
+
+#btn:hover {
+    box-sizing: border-box;
+    border: 2px solid var(--dark-brown);
+    background: var(--white-color);
+    color: var(--dark-brown);
+}
+
+
+h1 {
+    cursor: pointer;
+}
+
+header .navbar ul li {
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 17px;
+    color: var(--white-color);
+    display: block;
+}
+
+.underline-effect {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: var(--dark-brown);
+}
+
+.underline-effect::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--dark-brown);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.underline-effect:hover::before {
+    transform: scaleX(1);
+}
+
+.navbar ul li ul li:hover {
+    background: var(--dark-brown);
+    color: var(--white-color);
+}
+
+.skills span {
+    margin-right: 80px;
+}
+
+.navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: var(--white-color);
+    display: none;
+}
+
+.navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.214);
+    background-color: var(--web-black);
+    color: var(--white-color);
+}
+
+.navbar ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+
+.navbar ul li:focus-within>ul,
+.navbar ul li:hover>ul {
+    display: initial;
+}
+
+#menu-bar {
+    display: none;
+}
+
+.main-header {
+    flex-direction: column;
+    gap: 30px;
+}
+
+.animated-txt {
+    width: 75%;
+    gap: 35px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.animated-txt h1 {
+    margin-bottom: 10px;
+    color: var(--dark-brown);
+    font-size: 44px;
+}
+
+.animated-txt p {
+    color: var(--white-color);
+    text-align: center;
+}
+
+.animation-abc {
+    padding-left: 150px;
+    margin-bottom: 10px;
+    font-size: 70px;
+    color: var(--white-color);
+}
+
+.animation-abc span {
+    height: 70px;
+    color: var(--dark-brown);
+}
+
+.btns-c {
+    gap: 50px;
+}
+
+.btns-c a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.btns-h {
+    border: 2px solid var(--dark-brown);
+    color: var(--white-color);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+#btn1{
+    background-color: var(--dark-brown);
+    color: var(--white-color);
+}
+.f-w{
+    flex-wrap: wrap;
+}
+@media (max-width:991px) {
+    header {
+        padding: 20px;
+        height: 80px;
+        flex-direction: row-reverse;
+    }
+
+    header #menu-bar {
+        display: initial;
+        color: var(--white-color);
+    }
+
+    header .navbar {
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--web-black);
+        color: var(--white-color);
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .li-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .active {
+        display: none;
+    }
+
+    header .navbar ul li a {
+        font-size: 15px;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+
+    }
+
+    header .navbar ul li:hover {
+        background: var(--dark-brown);
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+    }
+
+    header .navbar ul li ul li {
+        left: 0;
+    }
+    #btn{
+        margin-bottom: 10px;
+    }
+    .typing-animation h1{
+        font-size: 35px;
+    }
+    .typing-animation span{
+        font-size: 55px;
+        padding-left: 0;
+    }
+}
+
+@media (max-width:498px) {
+    header {
+        height: 70px;
+    }
+    .typing-animation h1{
+        font-size: 30px;
+    }
+    .typing-animation span{
+        font-size: 50px;
+        padding-left: 0;
+    }
+}
+@media (max-width:391px) {
+    .btns-c{
+        /* width: 100%; */
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+}
+@media (max-width:338px) {
+    header {
+        height: 65px;
+    }
+
+    header .header-logo-txt img {
+        width: 30px;
+    }
+
+    header .header-logo-txt h2 {
+        font-size: 20px;
+    }
+
+    header .header-logo-txt span {
+        font-size: 18px;
+    }
+    .btns-c{
+        width: 100%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .typing-animation h1{
+        font-size: 20px;
+    }
+    .typing-animation span{
+        padding-left: 0px;
+        font-size: 30px;
+    }
+    .dis{
+        display: none;
+    }
+}

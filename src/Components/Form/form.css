@@ -1,0 +1,133 @@
+.form{
+    width: 100%;
+    padding: 40px 0;
+    justify-content: center;
+}
+.form-container{
+    padding: 20px 0;
+    width: 90%;
+    background: #2F2F2F;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.form-left{
+    width: 40%;
+}
+.form-left h1{
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+.form-left-inner{
+    display: flex;
+    color: var(--white-color);
+    gap: 20px;
+    flex-direction: column;
+}
+.form-left-inner span i{
+   margin-right: 10px;
+   color:rgba(255, 255, 255, 0.673);
+}
+.a {
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.form-left h1 span{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: rgb(253, 181, 87);
+    text-decoration-thickness: 2px;
+}
+.form-right{
+    width: 42%;
+}
+.first-form span{
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.first-form span #name{
+    padding: 7px 0;
+    width: 250px;
+    background-color: #7a7a7a82;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid gray;
+}
+.first-form span #email{
+    padding: 7px 0;
+    width: 250px;
+    background-color: #7a7a7a82;
+    border-radius: 3px;
+    border: 1px solid gray;
+    outline: none;
+}
+label{
+    font-size: 20px;
+    color: var(--white-color);
+    margin: 10px 0;
+}
+#subject{
+    color: var(--white-color);
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid gray;
+    width: 100%;
+    background-color: #7a7a7a82;
+    border-radius: 3px;
+}
+.msg{
+    margin-top: 20px;
+}
+textarea{
+    background-color: #7a7a7a82;
+    min-height:150px ;
+    max-height: 150px;
+    min-width: 100%;
+    max-width: 100%;
+    color: var(--white-color);
+}
+@media (max-width:1250px) {
+    .first-form span #name{
+        width: 200px;
+    }
+    .first-form span #email{
+        width: 200px;
+    }
+}
+@media (max-width:1050px) {
+    .first-form{
+        flex-direction: column;
+    }
+    .first-form span{
+        width: 100%;
+    }
+    .first-form span #name{
+        width: 100%;
+    }
+    .first-form span #email{
+        width: 100%;
+    }
+}
+@media (max-width:950px) {
+    .form-left h1{
+        font-size: 25px;
+    }
+}
+@media (max-width:650px) {
+    .form-container {
+        flex-direction: column;
+    }
+    .form-left h1{
+        font-size: 30px;
+    }
+    .form-left{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .form-right{
+        width: 100%;
+        padding: 0 20px;
+    }
+}

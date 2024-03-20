@@ -1,0 +1,212 @@
+.skill{
+    width: 100%;
+    background-color: var(--web-black);
+    margin-top: 30px;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.skills-container{
+    margin: 2px auto;
+    width: 80%;
+    justify-content: center;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.hs::before{
+    content: "Skills";
+}
+.skill-left{
+    margin: 30px 0;
+   flex-direction: column;
+   gap: 20px;
+}
+.skill-left h1{
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 200;
+}
+.skill-left p{
+    color: grey;
+    text-align: center;
+}
+.skill-right h1{
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 200;
+}
+.skill-right{
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 100px;
+    justify-content: space-evenly;
+}
+.skill-content{
+    flex-direction: column;
+}
+.skill-center{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+}
+.outer{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px -6px 10px -1px rgba(0, 0, 0, 0.7);
+}
+.inner{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.443),
+    inset -4px -4px 6px -1px rgba(0, 0, 0, 0.543),
+     -0.5px -0.5px 0px rgba(0, 0, 0, 0.632),
+      0.5px 0.5px 0px rgba(0, 0, 0, 15),
+    0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    justify-content: center;
+}
+.svg-1{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 17px;
+    stroke-dasharray: 310;
+    stroke-dashoffset: 310;
+    animation: anim 3s linear forwards;
+}
+@keyframes anim {
+    100%{
+        stroke-dashoffset: -0;
+    }
+}
+.svg-2{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 17px;
+    stroke-dasharray: 310;
+    stroke-dashoffset: 310;
+    animation: svg-2 3s linear forwards;
+}
+@keyframes svg-2 {
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+.svg-3{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 17px;
+    stroke-dasharray: 310;
+    stroke-dashoffset: 310;
+    animation: svg-3 3s linear forwards;
+}
+@keyframes svg-3 {
+    100%{
+        stroke-dashoffset: 70;
+    }
+}
+.svg-4{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 17px;
+    stroke-dasharray: 310;
+    stroke-dashoffset: 310;
+    animation: svg-4 3s linear forwards;
+}
+@keyframes svg-4 {
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
+.svg-5{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 17px;
+    stroke-dasharray: 310;
+    stroke-dashoffset: 310;
+    animation: svg-5 3s linear forwards;
+}
+@keyframes svg-5 {
+    100%{
+        stroke-dashoffset: 120;
+    }
+}
+.svg-6{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 17px;
+    stroke-dasharray: 310;
+    stroke-dashoffset: 310;
+    animation: svg-6 3s linear forwards;
+}
+@keyframes svg-6 {
+    100%{
+        stroke-dashoffset: 140;
+    }
+}
+.svg-7{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 17px;
+    stroke-dasharray: 310;
+    stroke-dashoffset: 310;
+    animation: svg-7 3s linear forwards;
+}
+@keyframes svg-7 {
+    100%{
+        stroke-dashoffset: 300;
+    }
+}
+.svg-8{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 17px;
+    stroke-dasharray: 310;
+    stroke-dashoffset: 310;
+    animation: svg-8 3s linear forwards;
+}
+@keyframes svg-8 {
+    100%{
+        stroke-dashoffset: 220;
+    }
+}
+.svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#number{
+    font-weight: 600;
+    color: var(--white-color);
+}
+@media (max-width:991.98px) {
+    .skill{
+        justify-content: center;
+        margin: 20 auto;
+    }
+    .skill-left{
+        width: 100%;
+    }
+    .skill-right{
+        width: 100%;
+    }
+}
+@media (max-width:491px) {
+    .skill-right{
+        width: 100%;
+    }
+    .skill-left h1{
+        font-size: 25px;
+    }
+}
+@media (max-width:338.98px) {
+    .skill-right h1{
+        font-size: 25px;
+    }
+    .skill-left .sec{
+        display: none;
+    }
+}
