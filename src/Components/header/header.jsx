@@ -75,7 +75,7 @@ export default function Header() {
         <header className={`D-f ${scrolled ? 'scrolled' : ''}`}>
           <i className="fa-solid fa-bars" id="menu-bar" onClick={handleClick}></i>
           <div className="header-logo-txt D-f">
-            <img src="./public/fav.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/128/9605/9605589.png" alt="" />
             <h2><a href="">Smart</a> <span>Dev</span></h2>
           </div>
           <nav className={`navbar  ${toggleClassCheck}`}>
