@@ -307,7 +307,7 @@ header .navbar ul li a {
     }
 }
 @media (max-width:391px) {
-    .animation-abc{
+    .typing-animation h1{
         font-size: 25px;
     }
     .dis{
