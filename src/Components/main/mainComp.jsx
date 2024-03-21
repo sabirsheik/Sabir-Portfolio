@@ -21,7 +21,7 @@ export default function Main() {
         <h3>Web Devolper</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim nobis debitis nesciunt, tempora nulla? Vel ad laborum, fuga vitae illum nesciunt!
         </p>
-        
+
         <button className='Down'>Download CV</button>
        </div>
       </div>

@@ -9,8 +9,8 @@ export default function Form() {
         <div className="form-left-inner">
             <h2>Quick Contact</h2>
             <span><i className="fa-solid fa-phone"></i>  +92 3275359491</span>
-            <span><i class="fa-solid fa-location-dot"></i> Pakistan Chakwal</span>
-            <span><i class="fa-solid fa-clock"></i>  Monday to Friday <br /> <span className='a'> 9pm 5pm </span></span>
+            <span><i className="fa-solid fa-location-dot"></i> Pakistan Chakwal</span>
+            <span><i className="fa-solid fa-clock"></i>  Monday to Friday <br /> <span className='a'> 9pm 5pm </span></span>
         </div>
       </div>
        <div className="form-right">

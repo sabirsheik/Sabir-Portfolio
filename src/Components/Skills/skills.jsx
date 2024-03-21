@@ -40,11 +40,11 @@ export default function Skills() {
                         <svg className='svg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" height="120px">
                             <defs>
                                 <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#1b1b1b" />
-                                    <stop offset="100%" stop-color="#bb2649" />
+                                    <stop offset="0%" stopColor="#1b1b1b" />
+                                    <stop offset="100%" stopColor="#bb2649" />
                                 </linearGradient>
                             </defs>
-                            <circle cx="60" cy="60" r="50" stroke-linecap="round" className='svg-1' />
+                            <circle cx="60" cy="60" r="50" strokeLinecap="round" className='svg-1' />
                         </svg>
                     </div>
                    </div>
@@ -64,11 +64,11 @@ export default function Skills() {
                         <svg className='svg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" height="120px">
                             <defs>
                                 <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#e91e63" />
-                                    <stop offset="100%" stop-color="#673ab7" />
+                                    <stop offset="0%" stopColor="#e91e63" />
+                                    <stop offset="100%" stopColor="#673ab7" />
                                 </linearGradient>
                             </defs>
-                            <circle cx="60" cy="60" r="50" stroke-linecap="round" className='svg-2' />
+                            <circle cx="60" cy="60" r="50" strokeLinecap="round" className='svg-2' />
                         </svg>
                     </div>
                     </div>
@@ -89,11 +89,11 @@ export default function Skills() {
                         <svg className='svg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" height="120px">
                             <defs>
                                 <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#e91e63" />
-                                    <stop offset="100%" stop-color="#673ab7" />
+                                    <stop offset="0%" stopColor="#e91e63" />
+                                    <stop offset="100%" stopColor="#673ab7" />
                                 </linearGradient>
                             </defs>
-                            <circle cx="60" cy="60" r="50" stroke-linecap="round" className='svg-3' />
+                            <circle cx="60" cy="60" r="50" strokeLinecap="round" className='svg-3' />
                         </svg>
                     </div>
                     </div>
@@ -114,11 +114,11 @@ export default function Skills() {
                         <svg className='svg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" height="120px">
                             <defs>
                                 <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#e91e63" />
-                                    <stop offset="100%" stop-color="#673ab7" />
+                                    <stop offset="0%" stopColor="#e91e63" />
+                                    <stop offset="100%" stopColor="#673ab7" />
                                 </linearGradient>
                             </defs>
-                            <circle cx="60" cy="60" r="50" stroke-linecap="round" className='svg-4' />
+                            <circle cx="60" cy="60" r="50" strokeLinecap="round" className='svg-4' />
                         </svg>
                     </div>
                     </div>
@@ -139,11 +139,11 @@ export default function Skills() {
                         <svg className='svg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" height="120px">
                             <defs>
                                 <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#e91e63" />
-                                    <stop offset="100%" stop-color="#673ab7" />
+                                    <stop offset="0%" stopColor="#e91e63" />
+                                    <stop offset="100%" stopColor="#673ab7" />
                                 </linearGradient>
                             </defs>
-                            <circle cx="60" cy="60" r="50" stroke-linecap="round" className='svg-5' />
+                            <circle cx="60" cy="60" r="50" strokeLinecap="round" className='svg-5' />
                         </svg>
                     </div>
                    </div>
@@ -163,11 +163,11 @@ export default function Skills() {
                         <svg className='svg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" height="120px">
                             <defs>
                                 <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#e91e63" />
-                                    <stop offset="100%" stop-color="#673ab7" />
+                                    <stop offset="0%" stopColor="#e91e63" />
+                                    <stop offset="100%" stopColor="#673ab7" />
                                 </linearGradient>
                             </defs>
-                            <circle cx="60" cy="60" r="50" stroke-linecap="round" className='svg-6' />
+                            <circle cx="60" cy="60" r="50" strokeLinecap="round" className='svg-6' />
                         </svg>
                     </div>
                     </div>
@@ -187,11 +187,11 @@ export default function Skills() {
                         <svg className='svg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" height="120px">
                             <defs>
                                 <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#673ab7" />
-                                    <stop offset="100%" stop-color="#e91e63" />
+                                    <stop offset="0%" stopColor="#673ab7" />
+                                    <stop offset="100%" stopColor="#e91e63" />
                                 </linearGradient>
                             </defs>
-                            <circle cx="60" cy="60" r="50" stroke-linecap="round" className='svg-7' />
+                            <circle cx="60" cy="60" r="50" strokeLinecap="round" className='svg-7' />
                         </svg>
                     </div>
                     </div>
@@ -211,11 +211,11 @@ export default function Skills() {
                         <svg className='svg' xmlns="http://www.w3.org/2000/svg" version="1.1" width="130px" height="120px">
                             <defs>
                                 <linearGradient id="GradientColor">
-                                    <stop offset="0%" stop-color="#e91e63" />
-                                    <stop offset="100%" stop-color="#673ab7" />
+                                    <stop offset="0%" stopColor="#e91e63" />
+                                    <stop offset="100%" stopColor="#673ab7" />
                                 </linearGradient>
                             </defs>
-                            <circle cx="60" cy="60" r="50" stroke-linecap="round" className='svg-8' />
+                            <circle cx="60" cy="60" r="50" strokeLinecap="round" className='svg-8' />
                         </svg>
                     </div>
                     </div>
