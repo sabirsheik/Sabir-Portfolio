@@ -12,7 +12,7 @@ export default function Main() {
       <div className="about-me">
        <div className="left-main">
         <div className="left-main-img">
-        <img src="./public/my.png" alt="" />
+        <img src="https://photos.google.com/photo/AF1QipOc_mdyNUMYeGDL9MCE47HfNjD_e9oxXcWLH6AH" alt="" />
         </div>
        </div>
 
