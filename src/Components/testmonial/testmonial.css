@@ -1,6 +1,38 @@
-.testmonial{
-    width: 100%;
+.testimonial{
+    border: 2px solid red;
 }
-.testmonial-container{
+.testimonials-container{
+    flex-direction: column;
+}
+.testimonial-card{
     width: 100%;
+    border: 2px solid orange;
+    margin-top: 50px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.test-header{
+    background-color: var(--web-black);
+    justify-content: center;
+}
+.testimonial-card .test-header img{
+    border-radius: 50%;
+   width: 100px;
+   height: 100px;
+   background-position: center;
+   background-size: cover;
+}
+.testimonial-content{
+    background-color: var(--web-black);
+    color: grey;
+    width: 100%;
+    flex-direction: column;
+}
+.hs{
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.hs::before{
+    content: 'Testmonial';
 }
