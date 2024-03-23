@@ -49,7 +49,6 @@ main {
 }
 
 .left-main-img {
-    /* width: 55%; */
     background-color: #45454555;
     border-radius: 12px;
 }
@@ -61,7 +60,6 @@ main {
 
 .about-me .left-main img {
     width: 250px;
-    /* height: 250px; */
     margin-bottom: -5px;
 }
 
@@ -112,7 +110,6 @@ main {
 
 .reveal {
     transition: all 2s ease;
-    /* position: relative; */
     transform: translatey(150px);
     opacity: 0;
 }
@@ -121,9 +118,6 @@ main {
     transform: translateY(0px);
     opacity: 1;
 }
-/* Services */
-
-
 
 
 @media (max-width:1250px) {
@@ -165,7 +159,6 @@ main {
 
 @media (max-width:391.98px) {
       .h {
-        /* border: 2px solid red; */
         width: 100%;
         font-weight: 100;
         font-size: 60px;
@@ -183,7 +176,6 @@ main {
 
 @media (max-width:338.98px) {
 .h {
-        /* border: 2px solid red; */
         width: 100%;
         font-weight: 100;
         font-size: 50px;
