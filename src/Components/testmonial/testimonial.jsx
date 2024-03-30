@@ -17,9 +17,9 @@ const Testimonial = ({ name, position, testimonial, img }) => {
                 <img src={img} alt={name} className="card-img-test" />
               </div>
             </div>
-            <div className="card-content-test">
-              <h1>{name}</h1>
-              <h3>"{position}"</h3>
+            <div className="card-content-test D-f">
+              <h3>{name}</h3>
+              <h5>"{position}"</h5>
               <p>{testimonial}</p>
             </div>
           </div>
