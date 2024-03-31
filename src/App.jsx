@@ -75,7 +75,7 @@ export default function App() {
       </div>
       {/* Skills */}
       <Skills />
-
+   <hr />
      {/* Testmonial */}
      <div className="testimonial-container D-f">
                 <div className="test-main-con reveal adding">
