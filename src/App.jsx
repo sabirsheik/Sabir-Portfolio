@@ -21,8 +21,8 @@ export default function App() {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 3000,
+    autoplaySpeed:3000,
     cssEase: "linear",
     responsive: [
       {
