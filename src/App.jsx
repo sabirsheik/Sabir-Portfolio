@@ -16,6 +16,7 @@ import Footer from "./Components/footer/footer"
 export default function App() {
   const settings = {
     dots: true,
+    dotsColor: "whiter",
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
