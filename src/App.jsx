@@ -1,5 +1,5 @@
 import React from "react"
-import "./App.css"
+// import "./App.css"
 import Header from "./Components/header/header"
 import Main from "./Components/main/mainComp"
 import { product } from "./data/product"
