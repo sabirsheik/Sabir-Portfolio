@@ -110,7 +110,7 @@ main {
 
 .reveal {
     transition: all 2s ease;
-    transform: translatey(100px);
+    transform: translatey(120px);
     opacity: 0;
 }
 
