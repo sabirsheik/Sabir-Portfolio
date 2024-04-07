@@ -218,10 +218,12 @@ export default function Skills() {
                             <circle cx="60" cy="60" r="50" strokeLinecap="round" className='svg-8' />
                         </svg>
                     </div>
+
                     </div>
 
                 </div>
             </div>
+            <h1 className='h ht'>Testimonial</h1>
         </div>
     )
 }

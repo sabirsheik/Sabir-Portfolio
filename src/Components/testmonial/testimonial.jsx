@@ -28,6 +28,7 @@ const Testimonial = ({ name, position, testimonial, img }) => {
 
       </div>
     </div>
+   
   );
 };
 
