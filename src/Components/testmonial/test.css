@@ -21,7 +21,7 @@ body{
         font-size: 20px;
     }
     .ht::before{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
 @media (max-width:451px) {
