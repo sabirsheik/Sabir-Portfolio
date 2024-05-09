@@ -69,6 +69,7 @@ export default function App() {
               title={item.title}
               img={item.img}
               statement={item.statement}
+              link={item.link}
             />
           ))}
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./services.css"
-export default function Services({id, img, title, statement}){
+export default function Services({id, img, title, statement,link}){
     return(
         <>
         <div className="cards-container">
@@ -9,7 +9,7 @@ export default function Services({id, img, title, statement}){
      <div className="overlay">
      <h1>{title}</h1>
       <p>{statement}</p>
-      <button className="ser-btn">Book Now</button>
+      <button className="ser-btn"><a href={link} target="_blank">Book Now</a></button>
      </div>
     </div>
         </div>
