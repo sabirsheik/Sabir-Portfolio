@@ -69,6 +69,12 @@ export default function Header() {
     return () => clearInterval(interval);
   }, [textIndex]);
 
+  const handleClickOutside = (e) => {
+        if (menuRef.current && !menuRef.current.contains(e.target)) {
+          setIsMenuOpen(false);
+        }
+      };
+      
   return (
     <>
       <div className="container-header-main D-f d-f-a">
@@ -78,7 +84,7 @@ export default function Header() {
             <img src="https://cdn-icons-png.flaticon.com/128/9605/9605589.png" alt="" />
             <h2><a href="">Smart</a> <span>Dev</span></h2>
           </div>
-          <nav className={`navbar  ${toggleClassCheck}`}>
+          <nav className={`navbar  ${toggleClassCheck}`} >
             <ul>
               <li><a href="" className="underline-effect">Home</a></li>
               <li><a href="main.jsx" className="underline-effect">About Us</a></li>
