@@ -10,12 +10,6 @@ const Footer = () => {
                 <h2><a href="#"> Smart</a> <span>Dev</span></h2>
                 </div>
                 <h4>Sabir Portfolio &copy; 2024</h4>
-                <ul className="d-f-a">
-                    <li><a href="#" className="underline-effect">Home</a></li>
-                    <li><a href="#" className="underline-effect">About</a></li>
-                    <li><a href="#" className="underline-effect">Services</a></li>
-                    <li><a href="#" className="underline-effect">Contant</a></li>
-                </ul>
                 <div className="icons d-f-a">
                 <a href="" className="change-2"><i className="fa-brands fa-linkedin"></i></a>
                <a href="" className="change"> <i className="fa-brands fa-facebook"></i></a>
