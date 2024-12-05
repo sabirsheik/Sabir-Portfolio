@@ -11,7 +11,7 @@ const Footer = () => {
                 </div>
                 <h4>Sabir Portfolio &copy; 2024</h4>
                 <div className="icons d-f-a">
-                <a href="https://www.linkedin.com/in/sabir-ali-837501340/" className="change-2"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/sabir-ali-837501340/" target="_blank" className="change-2"><i className="fa-brands fa-linkedin"></i></a>
                <a href="" className="change"> <i className="fa-brands fa-facebook"></i></a>
                 <a href="" className="change-3"><i className="fa-brands fa-youtube"></i></a>
                 </div>
