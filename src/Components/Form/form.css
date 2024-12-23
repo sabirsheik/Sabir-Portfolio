@@ -87,6 +87,21 @@ textarea{
     max-width: 100%;
     color: var(--white-color);
 }
+.submit-btn {
+    background-color: #bb2649;  
+    color: white; 
+    padding: 10px 20px;  
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;  
+    font-size: 16px;  
+    transition: background-color 0.3s ease;  
+  }
+  
+  .submit-btn:hover {
+    background-color: #9e1e3f;  /* Darken the button color on hover */
+  }
+  
 @media (max-width:1250px) {
     .first-form span #name{
         width: 200px;

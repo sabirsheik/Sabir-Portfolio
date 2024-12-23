@@ -103,7 +103,7 @@ export default function Header() {
                 </ul>
               </li>
               <li><a href="" className="underline-effect">Testmonials</a></li>
-              <li className="li-btn"><button id="btn">Contant US</button></li>
+              <li className="li-btn"><button id="btn" >Contant US</button></li>
             </ul>
           </nav>
         </header>
