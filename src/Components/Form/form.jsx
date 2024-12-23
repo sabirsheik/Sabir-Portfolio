@@ -108,6 +108,7 @@ const Form = ()=> {
                   onChange={handleInputChange}
                 />
               </span>
+              &nbsp;&nbsp;
               <span>
                 <label htmlFor="email">Email</label>
                 <br />
