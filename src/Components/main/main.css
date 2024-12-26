@@ -33,6 +33,7 @@ main {
     text-decoration-thickness: 1.3px;
     margin-top: -10px;
 }
+
 .about-me {
     margin-top: 20px;
     display: flex;
@@ -46,21 +47,15 @@ main {
     width: 35%;
     display: flex;
     justify-content: end;
-}
-
-.left-main-img {
-    background-color: #45454555;
     border-radius: 12px;
 }
 
 .about-me .left-main {
     overflow: hidden;
-
 }
 
 .about-me .left-main img {
     width: 250px;
-    margin-bottom: -5px;
 }
 
 .right-main {
@@ -146,11 +141,13 @@ main {
         margin: 0 auto;
     }
 }
+
 @media (max-width:791.98px) {
-    .services-container{
+    .services-container {
         justify-content: center;
     }
 }
+
 @media (max-width:491px) {
     .about-me {
         flex-direction: column;
@@ -158,7 +155,7 @@ main {
 }
 
 @media (max-width:391.98px) {
-      .h {
+    .h {
         width: 100%;
         font-weight: 100;
         font-size: 60px;
@@ -169,13 +166,14 @@ main {
         font-size: 25px;
         margin-top: -7px;
     }
-    .Down{
+
+    .Down {
         width: 100%;
     }
 }
 
 @media (max-width:338.98px) {
-.h {
+    .h {
         width: 100%;
         font-weight: 100;
         font-size: 50px;
@@ -186,5 +184,5 @@ main {
         font-size: 25px;
         margin-top: -5px;
     }
-    
+
 }

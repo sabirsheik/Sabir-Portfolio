@@ -116,7 +116,7 @@ export default function Header() {
           <p>Hi I'm Sabir Ali I'm Web devolper. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat magnam doloribus! <span className='dis'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo fugiat ratione porro.</span></p>
         </div>
         <div className="btns-c D-f f-w">
-           <a href=""><span  className='btns-h' id='btn1'>DownLoad CV</span></a>
+           <a href=""><span  className='btns-h' id='btn1'>Explore Now</span></a>
           <a href=""><span className='btns-h' id='btn2'>Contact Me</span></a>
 
         </div>

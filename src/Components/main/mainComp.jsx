@@ -1,6 +1,7 @@
 import React from 'react'
 import "./main.css"
 import "./main.js"
+import Resume from "./Sabir Ali.pdf";
 export default function Main() {
 
   return (
@@ -12,17 +13,24 @@ export default function Main() {
           <div className="about-me">
             <div className="left-main">
               <div className="left-main-img">
-                <img src="https://i.postimg.cc/vTXzcZ9H/my.png" alt="" />
+                <img src="https://i.postimg.cc/0Qjyj7WS/Sabir.jpg" alt="" />
               </div>
             </div>
 
             <div className="right-main">
               <h1>Hi There I'm <span>Sabir ALi</span></h1>
-              <h3>Web Devolper</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim nobis debitis nesciunt, tempora nulla? Vel ad laborum, fuga vitae illum nesciunt!
-              </p>
+              <h3>Full Stack Web Devolper</h3>
+              <p>Hey I'm Sabir Ali, a skilled full-stack developer with expertise in the MERN
+                stack (MongoDB, Express.js, React, Node.js) & Next.Js. I have completed
+                my training at NexcusBerry Training & Solution in Lahore, where I honed
+                my skills in building scalable, high-performance web applications. I am
+                proficient in designing and implementing user-friendly interfaces,
+                managing robust backend systems, and deploying cloud-based solutions.
+                With a strong focus on delivering customized, client-centric solutions, I am
+                adept at collaborating within agile teams to create impactful digital
+                products</p>
 
-              <button className='Down'>Download CV</button>
+              <button href={Resume} target='_blank' className='Down'>Download CV</button>
             </div>
           </div>
         </main>

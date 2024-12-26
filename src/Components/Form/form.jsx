@@ -47,8 +47,8 @@ const Form = ()=> {
         'service_96cwrd9',
         'template_zk567c9',
         {
-          from_name: name,
-          from_email: email,
+          name: name,
+          email: email,
           subject: subject,
           message: message,
         },
@@ -88,6 +88,9 @@ const Form = ()=> {
             <span>
               <i className="fa-solid fa-clock"></i> Monday to Friday <br />{' '}
               <span className="a">10 AM - 5 PM</span>
+            </span>
+             <span>
+              <i className="fa-solid fa-envelope"></i> sabirsheik12787@gmail.com
             </span>
           </div>
         </div>
