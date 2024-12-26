@@ -90,7 +90,7 @@ const Form = ()=> {
               <span className="a">10 AM - 5 PM</span>
             </span>
              <span>
-              <i className="fa-solid fa-email"></i> sabirsheik12787@gmail.com
+              <i className="fa-solid fa-envelope"></i> sabirsheik12787@gmail.com
             </span>
           </div>
         </div>
