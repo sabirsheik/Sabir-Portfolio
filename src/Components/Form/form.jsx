@@ -89,6 +89,9 @@ const Form = ()=> {
               <i className="fa-solid fa-clock"></i> Monday to Friday <br />{' '}
               <span className="a">10 AM - 5 PM</span>
             </span>
+             <span>
+              <i className="fa-solid fa-email"></i> sabirsheik12787@gmail.com
+            </span>
           </div>
         </div>
         <div className="form-right">
