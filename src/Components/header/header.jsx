@@ -113,7 +113,7 @@ export default function Header() {
             <h1>Hi, I'm </h1>
             <span className="animation-abc"> {displayedText}</span>
           </div>
-          <p>Hi I'm Sabir Ali I'm Web devolper. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat magnam doloribus! <span className='dis'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo fugiat ratione porro.</span></p>
+          <p>Hi I'm Sabir Ali I'm Web devolper. a skilled full-stack developer with expertise in the MERN stack (MongoDB, Express.js, React, Node.js) & Next.Js. I have completed my training at NexcusBerry Training & Solution in Lahore, <span className='dis'>  where I honed my skills in building scalable, high-performance web applications. </span></p>
         </div>
         <div className="btns-c D-f f-w">
            <a href=""><span  className='btns-h' id='btn1'>Explore Now</span></a>

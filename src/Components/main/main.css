@@ -84,6 +84,8 @@ main {
 }
 
 .Down {
+    text-decoration: none;
+    text-align: center;
     width: 30vw;
     padding: 10px 0;
     font-size: 20px;

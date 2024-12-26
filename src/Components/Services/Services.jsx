@@ -9,7 +9,7 @@ export default function Services({id, img, title, statement,link}){
      <div className="overlay">
      <h1>{title}</h1>
       <p>{statement}</p>
-      <button className="ser-btn"><a href={link} target="_blank">Book Now</a></button>
+      <button className="ser-btn"><a href={link} target="_blank">Explore Now</a></button>
      </div>
     </div>
         </div>

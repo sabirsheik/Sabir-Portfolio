@@ -1,7 +1,7 @@
 import React from 'react'
 import "./main.css"
 import "./main.js"
-import Resume from "./Sabir Ali.pdf";
+import resume from "./Sabir.pdf";
 export default function Main() {
 
   return (
@@ -20,7 +20,7 @@ export default function Main() {
             <div className="right-main">
               <h1>Hi There I'm <span>Sabir ALi</span></h1>
               <h3>Full Stack Web Devolper</h3>
-              <p>Hey I'm Sabir Ali, a skilled full-stack developer with expertise in the MERN
+              <p style={{textTransform:"capitalize"}}>Hey I'm Sabir Ali, a skilled full-stack developer with expertise in the MERN
                 stack (MongoDB, Express.js, React, Node.js) & Next.Js. I have completed
                 my training at NexcusBerry Training & Solution in Lahore, where I honed
                 my skills in building scalable, high-performance web applications. I am
@@ -30,7 +30,7 @@ export default function Main() {
                 adept at collaborating within agile teams to create impactful digital
                 products</p>
 
-              <button href={Resume} target='_blank' className='Down'>Download CV</button>
+              <a href={resume} target='_blank' className='Down'>Download CV</a>
             </div>
           </div>
         </main>
